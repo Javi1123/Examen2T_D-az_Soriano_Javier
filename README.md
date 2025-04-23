@@ -11,7 +11,11 @@ En las pruebas de equivalencia de "Instituto" he probado dos equivalencias, test
    - testRealizarPedidoInvalido: al contrario del otro test este si el nombre del departamento no exciste pues nos avisara.
 
 - Pruebas de Cobertura de Decisiones: Explica qué decisiones cubriste y cómo verificaste cada una.
+En las pruebas de corbertura de decisiones he dado ha elegir entre dos Institutos y los he igualado con el assertEquals();:
+   - testDecisionesRealizarPedido
 
 - Pruebas de Cobertura de Caminos Independientes: Documenta los caminos que cubriste en las pruebas y qué resultados esperabas.
+En las pruebas de corbertura de caminos independientes he dado ha elegir entre tres Departamentos y los he igualado con el assertEquals(); para saber cual era cada uno de estos:
+   - testCaminosIndependientesProcesarPedido
 
 - Pruebas de Integración: Describe cómo realizaste la integración entre los métodos y los resultados de las pruebas.
